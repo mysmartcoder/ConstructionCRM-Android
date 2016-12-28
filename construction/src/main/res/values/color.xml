@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bg_action_bar">#9CBAD2</color>
+    <color name="bg_bottom_tab_bar">#01375B</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="red">#E8704D</color>
+    <color name="login_text_color">#E2E2E2</color>
+    <color name="ready_task_txt_bg">#E9E9E9</color>
+    <color name="task_card_button_selector_bg">#A1A1A1</color>
+    <color name="transprant_blue">#18567F</color>
+
+    <!-- Pul to refresh -->
+    <color name="dark_slate_gray">#2F4F4F</color>
+    <color name="gray_2">#AFAFAF</color>
+    <color name="gray_1">#C0C0C0</color>
+
+    <!-- Pie chart Color -->
+    <color name="color_material">#33A7B4</color>
+    <color name="color_external_condition">#488C27</color>
+    <color name="color_laber">#5BC269</color>
+    <color name="color_space">#951313</color>
+    <color name="color_equipment">#B460B5</color>
+    <color name="color_desigm">#EFDD00</color>
+
+    <!-- Status Color -->
+    <color name="status_1">#FA5E5F</color>
+    <color name="status_2">#85FBAE</color>
+    <color name="status_3">#F3DB39</color>
+    <color name="status_4">#E363FF</color>
+    <color name="status_5">#FFCD4D</color>
+    <color name="status_6">#78D8FF</color>
+    <color name="status_7">#4D8F59</color>
+    <color name="status_8">#5F56FF</color>
+    <color name="status_9">#96E385</color>
+    <color name="status_10">#FFFFFF</color>
+
+    
+    <color name="transparent">#00FFFFFF</color>
+</resources>

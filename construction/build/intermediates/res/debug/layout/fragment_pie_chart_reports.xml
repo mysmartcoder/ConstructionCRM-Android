@@ -1,0 +1,257 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res/com.construction.android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/fragment_pie_chart_report_linear_main_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:visibility="invisible"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_5"
+            android:contentDescription="@string/app_name"
+            android:padding="@dimen/dimen_15"
+            android:src="@drawable/icon_reports"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/fragment_sub_reports_textview_task_name"
+            style="@style/textview_sub_normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/lbl_report_pie_chart"
+            android:visibility="gone" />
+
+        <HorizontalScrollView
+            android:id="@+id/fragment_make_ready_task_h_scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_5"
+            android:background="@color/bg_bottom_tab_bar" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/fragment_make_ready_task_textview_material"
+                    style="@style/textview_small"
+                    android:layout_width="@dimen/dimen_80"
+                    android:layout_height="wrap_content"
+                    android:background="@color/bg_bottom_tab_bar"
+                    android:drawableBottom="@drawable/btn_redio_on"
+                    android:drawablePadding="@dimen/dimen_4"
+                    android:gravity="center"
+                    android:padding="@dimen/dimen_5"
+                    android:text="@string/lbl_week1"
+                    android:textColor="@color/white" />
+
+                <View
+                    android:layout_width="@dimen/dimen_0_5"
+                    android:layout_height="match_parent"
+                    android:background="@color/white" />
+
+                <TextView
+                    android:id="@+id/fragment_make_ready_task_textview_equipment"
+                    style="@style/textview_small"
+                    android:layout_width="@dimen/dimen_80"
+                    android:layout_height="wrap_content"
+                    android:background="@color/bg_bottom_tab_bar"
+                    android:drawableBottom="@drawable/btn_redio_off"
+                    android:drawablePadding="@dimen/dimen_4"
+                    android:gravity="center"
+                    android:padding="@dimen/dimen_5"
+                    android:text="@string/lbl_week2"
+                    android:textColor="@color/white" />
+
+                <View
+                    android:layout_width="@dimen/dimen_0_5"
+                    android:layout_height="match_parent"
+                    android:background="@color/white" />
+
+                <TextView
+                    android:id="@+id/fragment_make_ready_task_textview_workers"
+                    style="@style/textview_small"
+                    android:layout_width="@dimen/dimen_80"
+                    android:layout_height="wrap_content"
+                    android:background="@color/bg_bottom_tab_bar"
+                    android:drawableBottom="@drawable/btn_redio_off"
+                    android:drawablePadding="@dimen/dimen_4"
+                    android:gravity="center"
+                    android:padding="@dimen/dimen_5"
+                    android:text="@string/lbl_week3"
+                    android:textColor="@color/white" />
+
+                <View
+                    android:layout_width="@dimen/dimen_0_5"
+                    android:layout_height="match_parent"
+                    android:background="@color/white" />
+
+                <TextView
+                    android:id="@+id/fragment_make_ready_task_textview_space"
+                    style="@style/textview_small"
+                    android:layout_width="@dimen/dimen_80"
+                    android:layout_height="wrap_content"
+                    android:background="@color/bg_bottom_tab_bar"
+                    android:drawableBottom="@drawable/btn_redio_off"
+                    android:drawablePadding="@dimen/dimen_4"
+                    android:gravity="center"
+                    android:padding="@dimen/dimen_5"
+                    android:text="@string/lbl_week4"
+                    android:textColor="@color/white" />
+
+                <View
+                    android:layout_width="@dimen/dimen_0_5"
+                    android:layout_height="match_parent"
+                    android:background="@color/white" />
+
+                <TextView
+                    android:id="@+id/fragment_make_ready_task_textview_design"
+                    style="@style/textview_small"
+                    android:layout_width="@dimen/dimen_80"
+                    android:layout_height="wrap_content"
+                    android:background="@color/bg_bottom_tab_bar"
+                    android:drawableBottom="@drawable/btn_redio_off"
+                    android:drawablePadding="@dimen/dimen_4"
+                    android:gravity="center"
+                    android:padding="@dimen/dimen_5"
+                    android:text="@string/lbl_week5"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <com.construction.android.view.GraphView
+                android:id="@+id/fragment_make_ready_task_graphview"
+                android:layout_width="@dimen/dimen_300"
+                android:layout_height="@dimen/dimen_300"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/dimen_20"
+                android:contentDescription="@string/app_name"
+                app:border="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                app:border_color="@color/bg_bottom_tab_bar"
+                app:border_width="@dimen/dimen_1"
+                app:shadow="true" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/dimen_10"
+            android:paddingRight="@dimen/dimen_10" >
+
+            <TextView
+                android:id="@+id/fragment_pie_chart_report_textview_material"
+                style="@style/textview_normal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/color_material"
+                android:gravity="center"
+                android:padding="@dimen/dimen_5"
+                android:singleLine="false"
+                android:text="@string/lbl_material"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/fragment_pie_chart_report_textview_external_condtion"
+                style="@style/textview_normal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_1"
+                android:layout_marginRight="@dimen/dimen_1"
+                android:layout_weight="1"
+                android:background="@color/color_external_condition"
+                android:gravity="center"
+                android:padding="@dimen/dimen_5"
+                android:singleLine="false"
+                android:text="@string/lbl_external_condition"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/fragment_pie_chart_report_textview_labor"
+                style="@style/textview_normal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/color_laber"
+                android:gravity="center"
+                android:padding="@dimen/dimen_5"
+                android:singleLine="false"
+                android:text="@string/lbl_laber"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/dimen_2"
+            android:paddingLeft="@dimen/dimen_10"
+            android:paddingRight="@dimen/dimen_10"
+            android:paddingTop="@dimen/dimen_1" >
+
+            <TextView
+                android:id="@+id/fragment_pie_chart_report_textview_space"
+                style="@style/textview_normal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/color_space"
+                android:gravity="center"
+                android:padding="@dimen/dimen_5"
+                android:singleLine="false"
+                android:text="@string/lbl_space"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/fragment_pie_chart_report_textview_equipment"
+                style="@style/textview_normal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_1"
+                android:layout_marginRight="@dimen/dimen_1"
+                android:layout_weight="1"
+                android:background="@color/color_equipment"
+                android:gravity="center"
+                android:padding="@dimen/dimen_5"
+                android:singleLine="false"
+                android:text="@string/lbl_equipment"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/fragment_pie_chart_report_textview_desing"
+                style="@style/textview_normal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/color_desigm"
+                android:gravity="center"
+                android:padding="@dimen/dimen_5"
+                android:singleLine="false"
+                android:text="@string/lbl_design"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/D:/Workspace/construction-mobile.android-app/construction/src/main/res/layout/fragment_pie_chart_reports.xml -->

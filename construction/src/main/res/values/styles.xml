@@ -1,0 +1,96 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="android:Theme.Light"></style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="edittext_login">
+        <item name="android:textColor">@color/bg_bottom_tab_bar</item>
+        <item name="android:background">@drawable/edittext_bg</item>
+        <item name="android:textSize">@dimen/text_normal_app</item>
+        <item name="android:padding">@dimen/dimen_10</item>
+        <item name="android:drawablePadding">@dimen/dimen_5</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="textview_normal">
+        <item name="android:textColor">@color/bg_bottom_tab_bar</item>
+        <item name="android:textSize">@dimen/text_normal_app</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:singleLine">true</item>
+        <!-- <item name="android:textStyle">bold</item> -->
+    </style>
+
+    <style name="textview_title">
+        <item name="android:textColor">@color/bg_bottom_tab_bar</item>
+        <item name="android:textSize">@dimen/text_title</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="textview_sub_title">
+        <item name="android:textColor">@color/bg_bottom_tab_bar</item>
+        <item name="android:textSize">@dimen/text_sub_title</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:singleLine">false</item>
+    </style>
+
+    <style name="textview_sub_title_normal">
+        <item name="android:textColor">@color/bg_bottom_tab_bar</item>
+        <item name="android:textSize">@dimen/text_sub_title</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:singleLine">false</item>
+    </style>
+
+    <style name="textview_sub_normal">
+        <item name="android:textColor">@color/bg_bottom_tab_bar</item>
+        <item name="android:textSize">@dimen/text_sub_title</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="textview_small">
+        <item name="android:textSize">@dimen/text_medium</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="button_normal">
+        <item name="android:textColor">@color/bg_bottom_tab_bar</item>
+        <item name="android:textSize">@dimen/text_normal_app</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:padding">@dimen/dimen_5</item>
+        <item name="android:background">@drawable/button_selector</item>
+    </style>
+
+    <style name="button_normal_login">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/text_normal_app</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:padding">@dimen/dimen_10</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/login_button_selector</item>
+    </style>
+    
+    
+    <style name="button_reports">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/text_normal_app</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:padding">@dimen/dimen_10</item>
+        <item name="android:background">@drawable/login_button_selector</item>
+    </style>
+
+</resources>

@@ -1,0 +1,139 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.construction.android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menulayout_relative_action_bar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/dimen_5" >
+
+    <RelativeLayout
+        android:id="@+id/row_notes_relative_reciver_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/dimen_20"
+        android:gravity="center_vertical" >
+
+        <com.construction.android.view.CircularImageView
+            android:id="@+id/row_notes_imageview_user_picture"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:visibility="gone"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"
+            app:border="true"
+            app:border_color="@color/bg_action_bar"
+            app:border_width="2dp"
+            app:shadow="true" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/row_notes_imageview_user_picture"
+            android:background="@drawable/bg_chat_left"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/row_notes_textview_name"
+                style="@style/textview_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/row_notes_textview_title"
+                style="@style/textview_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="false" />
+
+            <ImageView
+                android:id="@+id/row_notes_imageview_reciver"
+                android:layout_width="@dimen/dimen_150"
+                android:layout_height="@dimen/dimen_150"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitXY"
+                android:src="@drawable/temp_image1"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/row_notes_textview_date"
+                style="@style/textview_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_2" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/row_notes_relative_sender_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_20"
+        android:layout_marginTop="@dimen/dimen_5"
+        android:gravity="center_vertical"
+        android:visibility="gone" >
+
+        <com.construction.android.view.CircularImageView
+            android:id="@+id/row_notes_imageview_sender_picture"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:background="@color/white"
+            android:visibility="invisible"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"
+            app:border="true"
+            app:border_color="@color/bg_action_bar"
+            app:border_width="2dp"
+            app:shadow="true" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_toLeftOf="@+id/row_notes_imageview_sender_picture"
+            android:background="@drawable/bg_chat_right"
+            android:gravity="center_vertical|right"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/row_notes_textview_sender_name"
+                style="@style/textview_normal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/row_notes_textview_sender_title"
+                style="@style/textview_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="false" />
+
+            <ImageView
+                android:id="@+id/row_notes_imageview_sender"
+                android:layout_width="@dimen/dimen_150"
+                android:layout_height="@dimen/dimen_150"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitXY"
+                android:src="@drawable/temp_image1"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/row_notes_textview_sender_date"
+                style="@style/textview_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_2"
+                android:gravity="right" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/D:/Workspace/construction-mobile.android-app/construction/src/main/res/layout/row_notes.xml -->

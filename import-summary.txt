@@ -1,0 +1,79 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From Cropper:
+* build.gradle
+* proguard-project.txt
+From construction:
+* .gitignore
+* ic_launcher-web.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+gson-2.2.4.jar => com.google.code.gson:gson:2.2.4
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+gson-2.2.4.jar => version 2.2.4 in com.google.code.gson:gson:2.2.4
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In Cropper:
+* AndroidManifest.xml => cropper\src\main\AndroidManifest.xml
+* assets\ => cropper\src\main\assets
+* res\ => cropper\src\main\res\
+* src\ => cropper\src\main\java\
+In construction:
+* AndroidManifest.xml => construction\src\main\AndroidManifest.xml
+* assets\ => construction\src\main\assets\
+* libs\gozirra-ws-0.5.0.jar => construction\libs\gozirra-ws-0.5.0.jar
+* libs\httpmime-4.2.5.jar => construction\libs\httpmime-4.2.5.jar
+* libs\jackson-core-asl-1.9.7.jar => construction\libs\jackson-core-asl-1.9.7.jar
+* libs\jackson-mapper-asl-1.9.7.jar => construction\libs\jackson-mapper-asl-1.9.7.jar
+* libs\Java-WebSocket-1.3.0.jar => construction\libs\Java-WebSocket-1.3.0.jar
+* libs\universal-image-loader-1.9.2-SNAPSHOT-with-sources.jar => construction\libs\universal-image-loader-1.9.2-SNAPSHOT-with-sources.jar
+* lint.xml => construction\lint.xml
+* res\ => construction\src\main\res\
+* src\ => construction\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

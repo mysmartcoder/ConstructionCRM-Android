@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:gravity="center"
+    android:padding="@dimen/dimen_10" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_white_rounded_with_border"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/dimen_10"
+        android:paddingLeft="@dimen/dimen_10"
+        android:paddingRight="@dimen/dimen_10"
+        android:paddingTop="@dimen/dimen_10" >
+
+        <TextView
+            android:id="@+id/dialog_project_list_textview_title"
+            style="@style/textview_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/dimen_5"
+            android:text="@string/lbl_projects" />
+
+        <ListView
+            android:id="@+id/dialog_project_list_projects"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/dialog_project_list_textview_select"
+            android:layout_below="@+id/dialog_project_list_textview_title" />
+
+        <TextView
+            android:id="@+id/dialog_project_list_textview_select"
+            style="@style/button_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/dimen_10"
+            android:gravity="center"
+            android:minWidth="@dimen/minimum"
+            android:padding="@dimen/dimen_5"
+            android:visibility="gone"
+            android:text="@string/lbl_select" />
+    </RelativeLayout>
+
+</RelativeLayout>

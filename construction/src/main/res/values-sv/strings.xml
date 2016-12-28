@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">construction</string>
+    <string name="action_settings">Inställningar</string>
+    <string name="lbl_ok">OK</string>
+    <string name="lbl_send">Sänd</string>
+    <string name="lbl_gallery">Galleri</string>
+    <string name="lbl_camera">Kamera</string>
+    <string name="lbl_update">Uppdatera</string>
+    <string name="lbl_cancel">Avbryt</string>
+    <string name="lbl_cancelled">Avbruten</string>
+    <string name="lbl_yes">Ja</string>
+    <string name="lbl_profile">Profil</string>
+    <string name="lbl_construction_home">construction Hem</string>
+    <string name="lbl_data">Data</string>
+    <string name="lbl_today">Idag är det</string>
+    <string name="lbl_search_task">Sök aktivitet&#8230;</string>
+    <string name="lbl_project">Projekt</string>
+    <string name="lbl_reasons">Orsaker</string>
+
+    <!-- Shared Preferences, do not translate -->
+
+    <string name="sp_file_name">sp_construction</string>
+    <string name="sp_user_id">user_id</string>
+    <string name="sp_user_name">user_name</string>
+    <string name="sp_password">sp_password</string>
+    <string name="sp_user_image">user_image</string>
+    <string name="sp_user_token">user_token</string>
+    <string name="sp_start_date">start_date</string>
+    <string name="sp_end_date">end_date</string>
+    <string name="sp_user_status">user_status</string>
+    <string name="sp_project_id">project_id</string>
+    <string name="sp_is_login">is_login</string>
+    <string name="sp_user_email">user_email</string>
+    <string name="sp_login_with_social">login_with_social</string>
+    <string name="sp_last_time">last_active_time</string>
+    <string name="sp_server_name">server_name</string>
+    <string name="sp_server_name_file">sp_server</string>
+    <string name="sp_is_notification">is_notification</string>
+    <string name="sp_is_notification_everyone">sp_is_notification_everyone</string>
+    <string name="sp_is_not_notification">sp_is_not_notification</string>
+    <string name="sp_is_file_notification">sp_is_file_notification</string>
+    <string name="sp_is_status_notification">sp_is_status_notification</string>
+
+    <!-- Pull to refresh -->
+    <string name="pull_to_refresh_pull_label">Pull to refresh&#8230;</string>
+    <string name="pull_to_refresh_release_label">Release to refresh&#8230;</string>
+    <string name="pull_to_refresh_refreshing_label">Loading&#8230;</string>
+    <string name="pull_to_refresh_tap_label">Tap to refresh&#8230;</string>
+
+    <!-- Loging Screen -->
+    <string name="hint_username">Användarnamn</string>
+    <string name="hint_password">Lösenord</string>
+    <string name="lbl_login">Logga in</string>
+    <string name="lbl_forgot_password">Jag har glömt mitt lösenord</string>
+    <string name="lbl_projects">Välj projekt</string>
+    <string name="lbl_select">Välj</string>
+    <string name="hint_type_here">Skriv här..</string>
+
+    <!-- Bottom tab bar Screen -->
+    <string name="lbl_home">Hem</string>
+    <string name="lbl_search">Sök</string>
+    <string name="lbl_setting">Inställningar</string>
+    <string name="lbl_back">Tillbaka</string>
+    <string name="msg_exit">Vill du säkert avsluta?</string>
+    <string name="msg_logout">Vill du säkert logga ut?</string>
+
+    <!-- Home Screen -->
+    <string name="lbl_task_in_progress">Aktiviteter</string>
+    <string name="lbl_make_ready_task">Gör startklara</string>
+    <string name="lbl_reassignments">Ej godkända</string>
+    <string name="lbl_notification">Meddelanden</string>
+    <string name="lbl_snagging">Inspektion</string>
+    <string name="lbl_report">Rapporter</string>
+    <string name="lbl_task_card">Aktivitet</string>
+
+    <!-- Profile Screen -->
+    <string name="lbl_activeted">Aktiv</string>
+    <string name="lbl_dactive">Inaktiv</string>
+    <string name="lbl_role">Roll</string>
+    <string name="lbl_email">Epost</string>
+    <string name="lbl_organisation">Organisation</string>
+    <string name="lbl_edit">Ändra</string>
+    <string name="lbl_user_status">Användarstatus</string>
+    <string name="lbl_active">Aktiv</string>
+    <string name="lbl_in_active">Inaktiv</string>
+    <string name="lbl_update_profile">Uppdatera profil</string>
+    <string name="hint_fname">Förnamn</string>
+    <string name="hint_lname">Efternamn</string>
+    <string name="not_define">Odefinierad</string>
+
+    <!-- Settings Data Screen -->
+    <string name="lbl_synchronse_automatically">Synkronisera automatiskt</string>
+    <string name="lbl_frequency">Hur ofta</string>
+    <string name="lbl_every_hour">Varje timme</string>
+    <string name="lbl_1_hour">1 timme</string>
+    <string name="lbl_load_data_for_duration">Ladda data för tidsperiod</string>
+    <string name="lbl_1week">1 vecka</string>
+    <string name="lbl_data_storage_limit">Datalagringsgräns</string>
+    <string name="lbl_data_storage_limit_mb">100 MB</string>
+    <string name="lbl_load_data_duration">Sätt tidsperiod för lagring</string>
+
+    <!-- Settings Notification Screen -->
+    <string name="lbl_allow_notification">Tillåt meddelanden</string>
+    <string name="lbl_message_option">Meddelanden, inställningar</string>
+    <string name="lbl_show_alert_from_everyone">Visa varningar från alla</string>
+    <string name="lbl_show_alert_from">Visa varningar från</string>
+    <string name="lbl_only_me">Bara mig</string>
+    <string name="lbl_only_member">Bara medarbetare</string>
+    <string name="lbl_public">Offentlig</string>
+    <string name="lbl_include_alerts_for">Inkludera alarm för</string>
+    <string name="lbl_active_status_change">Ändring av status</string>
+    <string name="lbl_active_data_change">Ändring av data</string>
+    <string name="lbl_active_note_update">Ändring av meddelanden</string>
+    <string name="lbl_when_i_am_referred">När jag är involverad</string>
+    <string name="lbl_set_alert_privacy">Ställ in privacy</string>
+    <string name="lbl_more">Mer</string>
+
+    <!-- Make Ready Task Screen -->
+    <string name="lbl_material">Material</string>
+    <string name="lbl_equipment">Utrustning</string>
+    <string name="lbl_workers">Personal</string>
+    <string name="lbl_space">Utrymme</string>
+    <string name="lbl_design">Ritningar</string>
+    <string name="lbl_override">Åsidosätt</string>
+    <string name="lbl_make_ready_by">Gör startklar senast: </string>
+
+    <!-- Notification Screen -->
+    <string name="lbl_all">Alla</string>
+    <string name="lbl_unread">Nya</string>
+    <string name="lbl_archived">Sparade</string>
+
+    <!-- Task in Progress -->
+    <string name="lbl_description">Beskrivning</string>
+    <string name="lbl_predescessors">Föregångare</string>
+    <string name="lbl_files">Filer</string>
+    <string name="lbl_notes">Kommentarer</string>
+    <string name="lbl_history">Historia</string>
+    <string name="lbl_Comment">Commentarer</string>
+    <string name="hint_Comment">Skriv kommentar&#8230;</string>
+    <string name="lbl_due">Färdigställ</string>
+
+    <!-- Task Card Screen -->
+    <string name="lbl_start">Starta</string>
+    <string name="lbl_stop">Stoppa</string>
+    <string name="lbl_alert">Alarm</string>
+    <string name="lbl_complete">Gör färdig</string>
+    <string name="lbl_select_actore">Välj godkännare</string>
+    <string name="lbl_type_note_and_take_photo">Skriv kommentar och ta en bild</string>
+
+    <!-- Reports Screen -->
+    <string name="lbl_your_report">Rapporter</string>
+    <string name="lbl_last_month">Förra månaden</string>
+    <string name="lbl_six_month">6 månader</string>
+    <string name="lbl_custom">Valbar period</string>
+    <string name="lbl_percentage_plan_complete">PPC-mätetal</string>
+    <string name="lbl_report_pie_chart">Tårtidagram</string>
+    <string name="lbl_report_line_chart">Linjediagram</string>
+    <string name="lbl_reason_for_non_completion">Orsak till avvikelser</string>
+    <string name="lbl_reason_for_delay">Orsaker till förseningar</string>
+    <string name="lbl_list_of_delayed_tasks">Försenade aktiviteter</string>
+    <string name="lbl_stoped_tasks">Stoppade aktiviteter</string>
+    <string name="lbl_external_condition">Yttre </string>
+    <string name="lbl_laber">Personal</string>
+    <string name="lbl_week1">Vecka 1</string>
+    <string name="lbl_week2">Vecka 2</string>
+    <string name="lbl_week3">Vecka 3</string>
+    <string name="lbl_week4">Vecka 4</string>
+    <string name="lbl_week5">Vecka 5</string>
+
+    <!-- Snagging Details -->
+    <string name="lbl_markeed_complete">Markerad färdig den :</string>
+    <string name="lbl_mark_for_rework">Markera för omarbetning</string>
+    <string name="lbl_incomplete">Ej komplett</string>
+    <string name="lbl_defective">Felaktig</string>
+    <string name="lbl_need_further_insepection">Kräver ny kontroll</string>
+
+    <!-- Validation -->
+    <string name="validation_no_internet">Internet är inte tillgängligt. Vänligen kontrollera din anslutning.</string>
+    <string name="dialog_loading">Laddar&#8230;</string>
+    <string name="validation_failed">Det finns ett problem i systemet för närvarande, vänligen försök på nytt efter en stund</string>
+    <string name="validation_token_expired">Time-out, vänligen logga in på nytt..</string>
+    <string name="validation_error">Fel</string>
+    <string name="validation_enter_username_emal">Skriv in användarnamn eller epostadress.</string>
+    <string name="validation_enter_some_text">Fyll i text</string>
+    <string name="validation_enter_username">Fyll i ditt användarnamn</string>
+    <string name="validation_enter_display_name">Fyll i ditt namn</string>
+    <string name="validation_enter_password">Fyll i ditt lösenord</string>
+    <string name="validation_email">Fyll i din epostadress.</string>
+    <string name="validation_email_valid">Vänligen använd en godkänd epostadress.</string>
+    <string name="validation_fname">Fyll ditt förnamn.</string>
+    <string name="validation_lname">Fyll i ditt efternamn.</string>
+    <string name="validation_dob">Fyll i ditt födelsedatum.</string>
+    <string name="validation_gender">Fyll i ditt kön</string>
+    <string name="validation_country">Vänligen välj land</string>
+    <string name="validation_city">Vänligen välj en stad</string>
+    <string name="validation_aboutme">Fyll i något om dig själv..</string>
+    <string name="validation_old_password">Skriv det gamla lösenordet</string>
+    <string name="validation_new_password">Skriv det nya lösenordet</string>
+    <string name="validation_re_enter_password">Skriv in det nya lösenordet på nytt</string>
+    <string name="validation_confirm_password">Lösenorden är olika</string>
+    <string name="validation_enter_new_username">Skriv in ett nytt användarnamn</string>
+    <string name="validation_title">Fyll i din titel</string>
+    <string name="validation_forum_description">Skriv in en beskrivning av din post..</string>
+    <string name="validation_no_token">You don\'t have enough balance to play quiz, please buy balance.</string>
+    <string name="validation_enter_subject">Skriv en rubrik</string>
+    <string name="validation_enter_comments">Skriv en kommentar</string>
+    <string name="validation_select_reasons">Skriv en orsak</string>
+    <string name="validation_discription_not_foune">Ingen beskrivning</string>
+    <string name="validation_to_date">Do not find future history.</string>
+    <string name="validation_select_to_date">Please select to date.</string>
+    <string name="validation_select_from_date">Please select from date.</string>
+
+    <!-- Alert Message -->
+    <string name="alt_msg_invalid_username_password">Ogiltigt användarnamn eller lösenord.</string>
+    <string name="alt_msg_log_out">Är du säker att du vill logga ut?</string>
+    <string name="alt_msg_select_project">Välj projekt.</string>
+    <string name="alt_msg_data_not_founds">Ingen data</string>
+    <string name="alt_msg_set_staus_successfull">Välj status lyckades</string>
+    <string name="alt_msg_send_picture">Sänd en bild</string>
+    <string name="alt_msg_Profile_pic">Profilbild</string>
+    <string name="alt_msg_send_picture_msessage">Hur vill du sända din bild?</string>
+    <string name="alt_msg_set_profile_picture">Hur vill du skapa din profilbild?</string>
+    <string name="alt_msg_notes_not_found">Inga meddelanden</string>
+    <string name="alt_download_file">Vill du säkert ladda ner filen ?</string>
+    <string name="alt_data_not_found">Inga aktiviteter</string>
+    <string name="alt_teature_will_be_abailable_soon">Denna funktion är ännu under arbete.</string>
+    <string name="alt_predescessor_not_complete">Föregångaren har inte färdigställts</string>
+    <string name="alt_start_task_first">Starta aktiviteten innan du gör den färdig.</string>
+    <string name="alt_task_data_not_founds">Inga aktiviteter</string>
+    <string name="alt_reports_data_not_founds">Det finns ingen data under denna tidsperiod</string>
+    <string name="alt_predescessors_data_not_founds">Inga föregångare</string>
+    <string name="alt_history_data_not_founds">Ingen historia</string>
+    <string name="alt_files_data_not_founds">Inga filer</string>
+    <string name="alt_notes_data_not_founds">Inga kommentarer</string>
+    <string name="alt_task_is_ready">Nu är aktiviteten färdig att startas</string>
+    <string name="alt_enter_valid_email">Skriv en korrekt epostadress</string>
+    <string name="alt_invalid_token">Invalid authentication token</string>
+
+    <!-- Bundle message, do not translate -->
+    <string name="bunble_project_details">Project Details</string>
+    <string name="bunble_position">Position</string>
+    <string name="bunble_project_guid">Project GUID</string>
+    <string name="bunble_is_task_in_progress_screen">Is Task In Progress Screen</string>
+    <string name="bunble_report_screen">Is Report Screen</string>
+    <string name="bunble_percentage_plan_screen">Is percentage plan screen</string>
+    <string name="bunble_non_completion">Is non completion screen</string>
+    <string name="bunble_reason_for_delay_stop">Is reason stop delay screen</string>
+    <string name="bunble_reason_for_delay">Is reason delay screen</string>
+    <string name="bunble_reason_for_stop">Is reason stop  screen</string>
+    <string name="bunble_reason_for_delay_stop_list_screen">Is reason delay stop screen</string>
+    <string name="bunble_report_data">Report Data</string>
+    <string name="bunble_start_date">start_date</string>
+    <string name="bunble_end_date">end_date</string>
+    <string name="bundle_from_notification">from_notification</string>
+    <string name="bundle_task_id">task_id</string>
+    <string name="bundle_notification_file_name">notification_file_name</string>
+
+    <!-- in UI, translate -->
+    <string name="lbl_fromdate">Välj från datum</string>
+    <string name="lbl_todate">Välj till datum</string>
+
+</resources>

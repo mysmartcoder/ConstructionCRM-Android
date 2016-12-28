@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@color/bg_action_bar" android:state_pressed="true"/>
+    <item android:drawable="@color/bg_action_bar" android:state_focused="true"/>
+    <item android:drawable="@color/bg_bottom_tab_bar" />
+
+</selector><!-- From: file:/D:/Workspace/construction-mobile.android-app/construction/src/main/res/drawable/login_button_selector.xml -->

@@ -1,0 +1,78 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_5"
+            android:contentDescription="@string/app_name"
+            android:padding="@dimen/dimen_15"
+            android:src="@drawable/icon_reports" />
+
+        <TextView
+            android:id="@+id/fragment_sub_reports_textview_task_name"
+            style="@style/textview_sub_normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/lbl_your_report" />
+
+        <TextView
+            android:id="@+id/fragment_sub_reports_textview_percentage_plan"
+            style="@style/textview_normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_10"
+            android:background="@color/ready_task_txt_bg"
+            android:padding="@dimen/dimen_10"
+            android:text="@string/lbl_percentage_plan_complete" />
+
+        <TextView
+            android:id="@+id/fragment_sub_reports_textview_non_completion"
+            style="@style/textview_normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="@dimen/dimen_10"
+            android:text="@string/lbl_reason_for_non_completion" />
+
+        <TextView
+            android:id="@+id/fragment_sub_reports_textview_delay_reason"
+            style="@style/textview_normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/ready_task_txt_bg"
+            android:padding="@dimen/dimen_10"
+            android:text="@string/lbl_reason_for_delay" />
+
+        <TextView
+            android:id="@+id/fragment_sub_reports_textview_list_of_delay_task"
+            style="@style/textview_normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="@dimen/dimen_10"
+            android:text="@string/lbl_list_of_delayed_tasks" />
+
+        <TextView
+            android:id="@+id/fragment_sub_reports_textview_stoped_tasks"
+            style="@style/textview_normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/ready_task_txt_bg"
+            android:padding="@dimen/dimen_10"
+            android:text="@string/lbl_stoped_tasks" />
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/D:/Workspace/construction-mobile.android-app/construction/src/main/res/layout/fragment_sub_reports.xml -->

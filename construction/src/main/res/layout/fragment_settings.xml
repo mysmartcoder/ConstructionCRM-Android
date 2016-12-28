@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:gravity="center_horizontal" >
+
+    <include
+        android:id="@+id/fragment_settings_view_actiontab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_1"
+        layout="@layout/view_setting_actionbar" />
+
+    <FrameLayout
+        android:layout_marginTop="@dimen/dimen_1"
+        android:id="@+id/setting_frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/fragment_settings_view_actiontab" />
+
+</RelativeLayout>

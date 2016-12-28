@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_5"
+        android:contentDescription="@string/app_name"
+        android:padding="@dimen/dimen_15"
+        android:src="@drawable/icon_reports" />
+
+    <TextView
+        android:id="@+id/fragment_delay_stop_list_textview_title"
+        style="@style/textview_sub_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/lbl_your_report" />
+
+    <ListView
+        android:id="@+id/fragment_delay_stop_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dimen_2"
+        android:background="@color/white" />
+
+</LinearLayout><!-- From: file:/D:/Workspace/construction-mobile.android-app/construction/src/main/res/layout/fragment_delay_stop_task_list.xml -->

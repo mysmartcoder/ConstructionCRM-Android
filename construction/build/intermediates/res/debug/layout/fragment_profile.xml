@@ -1,0 +1,130 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.construction.android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/dimen_10"
+    android:paddingTop="@dimen/dimen_10" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/fragment_profile_textview_edit_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:drawableRight="@drawable/icon_edit"
+                android:gravity="right"
+                android:paddingRight="@dimen/dimen_5" />
+        </RelativeLayout>
+
+        <com.construction.android.view.CircularImageView
+            android:id="@+id/fragment_profile_imageview_profile_picture"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"
+            android:src="@drawable/icon_profile"
+            app:border="true"
+            app:border_color="@color/bg_action_bar"
+            app:border_width="2dp"
+            app:shadow="true" />
+
+        <TextView
+            android:id="@+id/fragment_profile_textview_user_name"
+            style="@style/textview_normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/fragment_profile_textview_status"
+            style="@style/textview_small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/dimen_5"
+            android:drawableLeft="@drawable/icon_profile_active"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/dimen_5"
+            android:text="@string/lbl_activeted" />
+
+        <TextView
+            style="@style/textview_normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_10"
+            android:drawableRight="@drawable/icon_list_arrow"
+            android:padding="@dimen/dimen_5"
+            android:text="@string/lbl_role"
+            android:textColor="@color/bg_action_bar" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_0_5"
+            android:background="@color/bg_action_bar" />
+
+        <TextView
+            android:id="@+id/fragment_profile_textview_role"
+            style="@style/textview_normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen_5"
+            android:text="@string/not_define" />
+
+        <TextView
+            style="@style/textview_normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_10"
+            android:drawableRight="@drawable/icon_list_arrow"
+            android:padding="@dimen/dimen_5"
+            android:text="@string/lbl_email"
+            android:textColor="@color/bg_action_bar" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_0_5"
+            android:background="@color/bg_action_bar" />
+
+        <TextView
+            android:id="@+id/fragment_profile_textview_email"
+            style="@style/textview_normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen_5" />
+
+        <TextView
+            style="@style/textview_normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_10"
+            android:drawableRight="@drawable/icon_list_arrow"
+            android:padding="@dimen/dimen_5"
+            android:text="@string/lbl_organisation"
+            android:textColor="@color/bg_action_bar" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_0_5"
+            android:background="@color/bg_action_bar" />
+
+        <TextView
+            android:id="@+id/fragment_profile_textview_organization"
+            style="@style/textview_normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen_5"
+            android:text="@string/not_define" />
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/D:/Workspace/construction-mobile.android-app/construction/src/main/res/layout/fragment_profile.xml -->

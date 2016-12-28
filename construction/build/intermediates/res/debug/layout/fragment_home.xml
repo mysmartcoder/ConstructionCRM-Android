@@ -1,0 +1,184 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:baselineAligned="false"
+            android:gravity="center"
+            android:weightSum="2"
+            android:orientation="horizontal" >
+
+            <com.construction.android.view.MaterialRippleLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:rippleAlpha="0.2"
+                app:rippleColor="#585858"
+                app:rippleDelayClick="false"
+                app:rippleHover="true"
+                app:rippleOverlay="true" >
+
+                <TextView
+                    android:id="@+id/fragment_home_textview_make_ready_task"
+                    style="@style/textview_normal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/dimen_5"
+                    android:drawableTop="@drawable/icon_make_ready_tasks"
+                    android:gravity="center"
+                    android:text="@string/lbl_make_ready_task"
+                    android:textSize="@dimen/text_normal_app" />
+            </com.construction.android.view.MaterialRippleLayout>
+
+            <com.construction.android.view.MaterialRippleLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:rippleAlpha="0.2"
+                app:rippleColor="#585858"
+                app:rippleDelayClick="false"
+                app:rippleHover="true"
+                app:rippleOverlay="true" >
+
+                <TextView
+                    android:id="@+id/fragment_home_textview_task_in_progress"
+                    style="@style/textview_normal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/dimen_5"
+                    android:drawableTop="@drawable/icon_tasks_in_progres"
+                    android:gravity="center"
+                    android:padding="@dimen/dimen_5"
+                    android:text="@string/lbl_task_in_progress"
+                    android:textSize="@dimen/text_normal_app" />
+            </com.construction.android.view.MaterialRippleLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <com.construction.android.view.MaterialRippleLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:rippleAlpha="0.2"
+                app:rippleColor="#585858"
+                app:rippleDelayClick="false"
+                app:rippleHover="true"
+                app:rippleOverlay="true" >
+
+                <TextView
+                    android:id="@+id/fragment_home_textview_reassignments"
+                    style="@style/textview_normal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/dimen_5"
+                    android:drawableTop="@drawable/icon_reassignments"
+                    android:gravity="center"
+                    android:padding="@dimen/dimen_5"
+                    android:text="@string/lbl_reassignments"
+                    android:textSize="@dimen/text_normal_app" />
+            </com.construction.android.view.MaterialRippleLayout>
+
+            <com.construction.android.view.MaterialRippleLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:rippleAlpha="0.2"
+                app:rippleColor="#585858"
+                app:rippleDelayClick="false"
+                app:rippleHover="true"
+                app:rippleOverlay="true" >
+
+                <TextView
+                    android:id="@+id/fragment_home_textview_notifications"
+                    style="@style/textview_normal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/dimen_5"
+                    android:drawableTop="@drawable/icon_notifications"
+                    android:gravity="center"
+                    android:padding="@dimen/dimen_5"
+                    android:text="@string/lbl_notification"
+                    android:textSize="@dimen/text_normal_app" />
+            </com.construction.android.view.MaterialRippleLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <com.construction.android.view.MaterialRippleLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:rippleAlpha="0.2"
+                app:rippleColor="#585858"
+                app:rippleDelayClick="false"
+                app:rippleHover="true"
+                app:rippleOverlay="true" >
+
+                <TextView
+                    android:id="@+id/fragment_home_textview_snagging"
+                    style="@style/textview_normal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/dimen_5"
+                    android:drawableTop="@drawable/icon_snagging"
+                    android:gravity="center"
+                    android:padding="@dimen/dimen_5"
+                    android:text="@string/lbl_snagging"
+                    android:textSize="@dimen/text_normal_app" />
+            </com.construction.android.view.MaterialRippleLayout>
+
+            <com.construction.android.view.MaterialRippleLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:rippleAlpha="0.2"
+                app:rippleColor="#585858"
+                app:rippleDelayClick="false"
+                app:rippleHover="true"
+                app:rippleOverlay="true" >
+
+                <TextView
+                    android:id="@+id/fragment_home_textview_reports"
+                    style="@style/textview_normal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/dimen_5"
+                    android:drawableTop="@drawable/icon_reports"
+                    android:gravity="center"
+                    android:padding="@dimen/dimen_5"
+                    android:text="@string/lbl_report"
+                    android:textSize="@dimen/text_normal_app" />
+            </com.construction.android.view.MaterialRippleLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/D:/Workspace/construction-mobile.android-app/construction/src/main/res/layout/fragment_home.xml -->

@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menulayout_relative_action_bar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_action_bar"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/view_stting_actionbar_textview_profile"
+        style="@style/textview_sub_normal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="@dimen/dimen_5"
+        android:text="@string/lbl_profile"
+        android:textColor="@color/bg_bottom_tab_bar" />
+
+    <View
+        android:layout_width="@dimen/dimen_0_5"
+        android:layout_height="match_parent"
+        android:background="@android:color/white" />
+
+    <TextView
+        android:id="@+id/view_stting_actionbar_textview_notification"
+        style="@style/textview_sub_normal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="@dimen/dimen_5"
+        android:text="@string/lbl_notification"
+        android:textColor="@color/bg_bottom_tab_bar" />
+
+    <View
+        android:layout_width="@dimen/dimen_0_5"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/view_stting_actionbar_textview_data"
+        style="@style/textview_sub_normal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="@dimen/dimen_5"
+        android:text="@string/lbl_data"
+        android:textColor="@color/bg_bottom_tab_bar"
+        android:visibility="gone" />
+    
+     <View
+        android:layout_width="@dimen/dimen_0_5"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/view_stting_actionbar_textview_projects"
+        style="@style/textview_sub_normal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="@dimen/dimen_5"
+        android:text="@string/lbl_project"
+        android:textColor="@color/bg_bottom_tab_bar"
+        android:visibility="visible" />
+
+</LinearLayout><!-- From: file:/D:/Workspace/construction-mobile.android-app/construction/src/main/res/layout/view_setting_actionbar.xml -->

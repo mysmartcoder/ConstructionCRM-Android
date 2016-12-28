@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_5"
+        android:contentDescription="@string/app_name"
+        android:padding="@dimen/dimen_15"
+        android:src="@drawable/icon_tasks_in_progres" />
+    
+    <TextView
+        android:id="@+id/fragment_task_in_progress_textview_datanotfound"
+        style="@style/textview_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:singleLine="false"
+        android:text="@string/alt_data_not_found"
+        android:textColor="@color/gray_2"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/fragment_task_in_progress_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="@dimen/dimen_1"
+        android:visibility="visible"
+        android:divider="@android:color/transparent" />
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menulayout_relative_action_bar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_action_bar" >
+
+    <TextView
+        android:id="@+id/view_actionbar_textview_title"
+        style="@style/textview_sub_title_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:padding="@dimen/dimen_5"
+        android:text="@string/app_name"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/view_actionbar_textview_date"
+        style="@style/textview_small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:padding="@dimen/dimen_5"
+        android:singleLine="false"
+        android:textColor="@android:color/white" />
+
+    <ProgressBar
+        android:id="@+id/menulayout_progressbar"
+        style="@android:style/Widget.Holo.Light.ProgressBar.Inverse"
+        android:layout_width="@dimen/dimen_40"
+        android:layout_height="@dimen/dimen_40"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:indeterminate="true"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/view_actionbar_imageview_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/menu_button_selector"
+        android:contentDescription="@string/app_name"
+        android:padding="@dimen/dimen_12"
+        android:src="@drawable/icon_logout"
+        android:visibility="visible" />
+
+</RelativeLayout>
